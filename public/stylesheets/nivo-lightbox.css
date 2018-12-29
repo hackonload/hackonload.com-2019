@@ -115,6 +115,7 @@
 
 /* Effects
  **********************************************/
+/*noinspection CssUnknownProperty*/
 .nivo-lightbox-notouch .nivo-lightbox-effect-fade,
 .nivo-lightbox-notouch .nivo-lightbox-effect-fadeScale,
 .nivo-lightbox-notouch .nivo-lightbox-effect-slideLeft,
@@ -130,6 +131,7 @@
 }
 
 /* fadeScale */
+/*noinspection CssUnknownProperty*/
 .nivo-lightbox-effect-fadeScale .nivo-lightbox-wrap {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -150,6 +152,7 @@
 }
 
 /* slideLeft / slideRight / slideUp / slideDown */
+/*noinspection CssUnknownProperty*/
 .nivo-lightbox-effect-slideLeft .nivo-lightbox-wrap,
 .nivo-lightbox-effect-slideRight .nivo-lightbox-wrap,
 .nivo-lightbox-effect-slideUp .nivo-lightbox-wrap,
@@ -212,6 +215,7 @@
     perspective: 1000px;
 }
 
+/*noinspection CssUnknownProperty*/
 .nivo-lightbox-effect-fall .nivo-lightbox-wrap {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;

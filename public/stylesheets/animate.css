@@ -1613,6 +1613,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+/*noinspection CssUnknownProperty*/
 .animated.flip {
     -webkit-backface-visibility: visible;
     -ms-backface-visibility: visible;
@@ -1673,6 +1674,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+/*noinspection CssUnknownProperty*/
 .flipInX {
     -webkit-backface-visibility: visible !important;
     -ms-backface-visibility: visible !important;
@@ -1733,6 +1735,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+/*noinspection CssUnknownProperty*/
 .flipInY {
     -webkit-backface-visibility: visible !important;
     -ms-backface-visibility: visible !important;
@@ -1771,6 +1774,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+/*noinspection CssUnknownProperty*/
 .flipOutX {
     -webkit-animation-name: flipOutX;
     animation-name: flipOutX;
@@ -1809,6 +1813,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
+/*noinspection CssUnknownProperty*/
 .flipOutY {
     -webkit-backface-visibility: visible !important;
     -ms-backface-visibility: visible !important;

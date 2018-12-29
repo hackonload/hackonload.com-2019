@@ -44,7 +44,7 @@ a a:focus {
 p {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+  margin: 0;
     font-size: 14px;
 }
 
@@ -58,6 +58,7 @@ ul li, ol li {
     list-style: none;
 }
 
+/*noinspection CssUnknownProperty*/
 .section-title-header p {
     text: center;
     font-weight: 400;
@@ -77,7 +78,7 @@ ul li, ol li {
 }
 
 .padding-none {
-    padding: 0px;
+  padding: 0;
 }
 
 .btn {
@@ -341,6 +342,7 @@ hr {
     padding: 15px;
 }
 
+/*noinspection CssInvalidPropertyValue*/
 .sponsors-item-wrapper img {
     opacity: 0.5;
     filter: grayscale(100%);
@@ -400,15 +402,15 @@ hr {
 
 .navbar-brand {
     position: relative;
-    padding: 0px;
+  padding: 0;
 }
 
 .top-nav-collapse {
     background: #fff;
     z-index: 999999;
-    top: 0px !important;
+  top: 0 !important;
     min-height: 58px;
-    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.06);
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -419,7 +421,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-brand {
-    top: 0px;
+  top: 0;
 }
 
 .top-nav-collapse .navbar-brand img {
@@ -428,8 +430,8 @@ hr {
 
 .top-nav-collapse .navbar-nav .nav-link {
     color: #585b60 !important;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
@@ -505,6 +507,7 @@ hr {
     display: none;
 }
 
+/*noinspection CssUnknownProperty*/
 .dropdown-menu {
     margin: 0;
     padding: 0;
@@ -536,6 +539,7 @@ hr {
     border-bottom: 10px solid #fff;
 }
 
+/*noinspection CssUnknownProperty*/
 .dropdown:hover .dropdown-menu {
     display: block;
     position: absolute;
@@ -549,6 +553,7 @@ hr {
     -ms-animation: fadeIn 0.4s;
 }
 
+/*noinspection CssUnknownProperty*/
 .dropdown .dropdown-menu .dropdown-item {
     width: 100%;
     padding: 12px 20px;
@@ -814,7 +819,7 @@ textarea {
 }
 
 .contact-right .single-contact {
-    margin: 20px 0px;
+  margin: 20px 0;
     padding: 3px 55px;
     position: relative;
     color: #abacae;

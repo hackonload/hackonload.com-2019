@@ -114,7 +114,7 @@
     }
 
     #hero-area .contents {
-        padding: 100px 0px 60px 0px;
+        padding: 100px 0 60px 0;
     }
 
     #hero-area .contents .head-title {
@@ -128,7 +128,7 @@
     }
 
     #hero-area .contents .btn {
-        margin: 5px 10px 10px 0px;
+        margin: 5px 10px 10px 0;
     }
 
     .text-wrapper {
