@@ -1,2 +1,312 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!-- Header Area-->
+<header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="icon-menu"></span>
+                    <span class="icon-menu"></span>
+                    <span class="icon-menu"></span>
+                </button>
+                <a href="/" class="navbar-brand"><img src="/img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
+                    {{#each links}}
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{link}}">
+                                {{title}}
+                            </a>
+                        </li>
+                    {{/each}}
+                </ul>
+                <div class="btn-sing float-right">
+                    <a class="btn btn-border" href="#faqs">FAQs</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu navbar-nav">
+            {{#each links}}
+                <li>
+                    <a class="page-scroll" href="{{link}}">
+                        {{title}}
+                    </a>
+                </li>
+            {{/each}}
+            <li>
+                <a class="page-scroll" href="#faqs">
+                    FAQs
+                </a>
+            </li>
+        </ul>
+        <!-- Mobile Menu End -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!--Start -->
+    <div id="home" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="contents text-center">
+                        <h2 class="head-title wow fadeInUp">Collaboration of programmers, designers and inventors to
+                            code, design and build innovative solutions that tackle real world problems</h2>
+                        <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="#" class="btn btn-common">Applications Open Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-center">
+                    <h4 id="location"><i class="fas fa-map-marker"></i> VVCE, Mysuru</h4>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <h4 id="date"><i class="fas fa-calendar-day"></i> 23rd-24th March</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End -->
+</header>
+<!-- Header Area End -->
+
+<!-- Services Section Start -->
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Why Attend??</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="about-item wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="about-content">
+                        <h3 class="about-title">To make new friends</h3>
+                        <p>Hackathons provides a brilliant opportunity for you and your team to forge professional
+                            contacts
+                            and make new friends. With over 150 developers and designers gathering from all over the
+                            country, grab your chance of connecting with people to discuss ideas and
+                            opportunities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="about-item wow fadeInRight" data-wow-delay="0.6s">
+                    <div class="about-content">
+                        <h3 class="about-title">To Learn</h3>
+                        <p>Attending hackathons helps you learn new skills. If you’re
+                            newer to programming, you’ll learn how to create a project from scratch, buff out the
+                            problems, and present to a panel of judges. Even if you’re already a coding pro, you have an
+                            opportunity to enhance your team collaboration and presentation skills. All-in-all, it
+                            prepares you for working in a fast-paced environment and gives industry
+                            professionals experience tackling coding challenges</p>
+                    </div>
+                </div>
+            </div>
+            <!-- about item -->
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="about-item wow fadeInRight" data-wow-delay="0.9s">
+                    <div class="about-content">
+                        <h3 class="about-title">To Build</h3>
+                        <p>How often did you start a small project and never finished it? Or thought about something,
+                            but never tried it out? You will need to cut the scope, take some shortcuts.
+                            And you will still be amazed to see what you can finish in such a short period of time.
+
+                            You work all night with little to no sleep. You gain a second wind during the final pitching
+                            and in the end of a Hackathon, when receiving your award, you feel exhausted, but truly
+                            satisfied. Like a true marathon winner.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- about item -->
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="about-item wow fadeInRight" data-wow-delay="1.2s">
+                    <div class="about-content">
+                        <h3 class="about-title">The Thrill</h3>
+                        <p>If you did quite some intense things in your life, like jumping out of a plane, a Hackathon
+                            would still be something exciting for you. If you haven’t hacked a Hackathon you can’t know
+                            the feeling you have. The agitation before. Will you be able to finish something? And the
+                            excitement afterwards, when you are finished and you have created something. Don’t get me
+                            started on the time between. A Hackathon is a challenge that comes with a lot of work, but
+                            also a lot of fun and it can be a experience of a lifetime.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- about item -->
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="about-item wow fadeInRight" data-wow-delay="1.5s">
+                    <div class="about-content">
+                        <h3 class="about-title">To Showcase Your Skills</h3>
+                        <p>Participating in hackathons will help you stand out from the competition and, among other
+                            things, show that you truly are passionate about coding. Hackathon projects can also be
+                            great additions to your portfolio. They can lead to great product creations, which make them
+                            a unique opportunity get in front of industry leaders to
+                            showcase your technical chops. It’s not unheard of for hackers to get noticed by big
+                            employers, and then get brought in after a hackathon for an interview</p>
+                    </div>
+                </div>
+            </div>
+            <!-- about item -->
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="about-item wow fadeInRight" data-wow-delay="1.8s">
+                    <div class="about-content">
+                        <h3 class="about-title">To get Prizes and Free Stuffs</h3>
+                        <p>Not only will you have the chance to win some cool stuff, you will also get a cool goodie bag
+                            and loads of schwags. And food and drinks will also be for free. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about Section End -->
+
+
+<!-- Schedule Section Start -->
+<div id="schedule">
+
+</div>
+<!-- Schedule Section End -->
+
+<!--FAQ Section Start-->
+<div id="faqs">
+    <h2>FAQs</h2>
+    <div class="accordion" id="accordionFaq">
+        {{#each faqs}}
+            <div class="card">
+                <div class="card-header" id="{{id}}">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{collapse}}"
+                                aria-expanded="true" aria-controls="{{collapse}}">
+                            <i class="fas fa-plus-circle"></i> {{question}}
+                        </button>
+                    </h5>
+                </div>
+                <div id="{{collapse}}" class="collapse" aria-labelledby="{{id}}" data-parent="#accordionOne">
+                    <div class="card-body">
+                        {{answer}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    <br/><br/>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h4>Have any more Questions?</h4>
+            <h5>Reach out to us on <a href="mailto:contact@hackonload.com">contact@hackonload.com</a> or <a href="">Tweet</a>
+                us you question </h5>
+        </div>
+        <div class="col-sm-12 text-center">
+            <h6>Make sure you follow us on our social handles for announcements and news. Check the footer section for
+                links.</h6>
+        </div>
+    </div>
+</div>
+<!--FAQ Section End-->
+
+<!-- Sponsors Section Start -->
+<div id="sponsors" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Sponsors</h2>
+        </div>
+
+        <!--<div class="row text-align-">
+            <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="sponsors-item-wrapper">
+                    <img class="img-fluid" src="/img/sponsors/img1.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="sponsors-item-wrapper">
+                    <img class="img-fluid" src="/img/sponsors/img2.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
+                <div class="sponsors-item-wrapper">
+                    <img class="img-fluid" src="/img/sponsors/img3.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="sponsors-item-wrapper">
+                    <img class="img-fluid" src="/img/sponsors/img4.png" alt="">
+                </div>
+            </div>
+        </div>-->
+        <br/><br/>
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h4>Interested in becoming a sponsor? Email us at <a href="mailto:sponsor@hackonload.com">sponsor@hackonload.com</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sponsors Section End -->
+
+<!-- Footer Section Start -->
+<footer id="footer" class="footer-area section-padding">
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="footer-logo mb-3">
+                        <img src="/img/logo.png" alt="">
+                    </div>
+                    <p>Some intro</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul>
+                        <li>Email: <a href="mailto:contact@hackonload.com">contact@hackonload.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+                    <h3 class="footer-title">More</h3>
+                    <ul>
+                        <li><a href="#">Code of Conduct</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+                    <h3 class="footer-title">Find us on</h3>
+                    <div class="social-icon">
+                        <a class="facebook" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<section id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Copyright © 2018 OnLoad. All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Go to Top Link -->
+<a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader" id="loader-1"></div>
+</div>
+<!-- End Preloader -->
