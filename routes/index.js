@@ -24,7 +24,7 @@ const linksArray = [
 /* GET home page. */
 router.get('/', function (req, res, next) {
 	const data = {
-		title: "onLoad: Load your code",
+		title: "OnLoad: Load your code",
 		links: linksArray,
 		faqs: faqs
 	};
