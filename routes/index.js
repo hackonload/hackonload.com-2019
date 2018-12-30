@@ -25,6 +25,7 @@ const linksArray = [
 router.get('/', (req, res, next) => {
 	const data = {
 		title: "OnLoad: Load your code",
+		description: "A 30hr intense,  fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.",
 		links: linksArray,
 		faqs: faqs
 	};
@@ -33,7 +34,8 @@ router.get('/', (req, res, next) => {
 
 router.get('/team', (req, res, next) => {
 	const data = {
-		title: "The people behind OnLoad",
+		title: "OnLoad: The Team",
+		description: "Meet the team behind OnLoad"
 	};
 	res.render('team', data);
 });
