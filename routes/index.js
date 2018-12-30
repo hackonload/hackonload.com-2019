@@ -29,7 +29,8 @@ router.get('/', (req, res, next) => {
 		description: "A 30hr intense,  fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.",
 		links: linksArray,
 		schedule: schedule,
-		faqs: faqs
+		faqs: faqs,
+		home: true
 	};
 	res.render('index', data);
 });
@@ -37,7 +38,8 @@ router.get('/', (req, res, next) => {
 router.get('/team', (req, res, next) => {
 	const data = {
 		title: "OnLoad: The Team",
-		description: "Meet the team behind OnLoad"
+		description: "Meet the team behind OnLoad",
+		home: false
 	};
 	res.render('team', data);
 });

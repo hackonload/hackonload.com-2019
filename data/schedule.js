@@ -62,7 +62,7 @@ const schedule = {
 				},
 				{
 					time: "9:00 P.M",
-					event: "Good Bye Folks"
+					event: "GoodBye!"
 				},
 
 			]

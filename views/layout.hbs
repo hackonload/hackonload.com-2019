@@ -67,5 +67,26 @@
 <script src="/js/jquery.easing.min.js"></script>
 <script src="/js/jquery.slicknav.js"></script>
 <script src="/js/main.js"></script>
+{{#if home}}
+    <script>
+        const switchToMinus = (id) => {
+            const selector = "div#" + id + ">h5.mb-0>button>i.plus-minus"
+            $(selector).removeClass("fa-plus-circle").addClass("fa-minus-circle");
+        };
+
+        const switchToPlus = (id) => {
+            const selector = "div#" + id + ">h5.mb-0>button>i.plus-minus";
+            $(selector).removeClass("fa-minus-circle").addClass("fa-plus-circle");
+        };
+            {{#each faqs}}
+            $("#{{collapse}}").on("show.bs.collapse", () => {
+                switchToMinus("{{id}}");
+            });
+            $("#{{collapse}}").on("hidden.bs.collapse", () => {
+                switchToPlus("{{id}}");
+            });
+            {{/each}}
+    </script>
+{{/if}}
 </body>
 </html>
