@@ -280,7 +280,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-    padding: 60px 0;
+    padding: 60px 40px;
 }
 
 hr {
@@ -701,6 +701,8 @@ hr {
 #home {
     overflow: hidden;
     position: relative;
+    left: 0;
+    right: 0;
 }
 
 #home .contents {
