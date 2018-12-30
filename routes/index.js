@@ -22,13 +22,20 @@ const linksArray = [
 ];
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+router.get('/', (req, res, next) => {
 	const data = {
 		title: "OnLoad: Load your code",
 		links: linksArray,
 		faqs: faqs
 	};
 	res.render('index', data);
+});
+
+router.get('/team', (req, res, next) => {
+	const data = {
+		title: "The people behind OnLoad",
+	};
+	res.render('team', data);
 });
 
 module.exports = router;
