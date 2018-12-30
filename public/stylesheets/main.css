@@ -660,7 +660,7 @@ hr {
 }
 
 #header-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.cnn.com/cnnnext/dam/assets/161019180514-heroes-background-2016-full-169.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/hero-bg.webp");
 }
 
 .text-center {
