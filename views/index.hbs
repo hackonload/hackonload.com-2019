@@ -17,7 +17,7 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
                     {{#each links}}
                         <li class="nav-item active">
-                            <a class="nav-link" href="{{link}}">
+                            <a class="nav-link page-scroll" href="{{link}}">
                                 {{title}}
                             </a>
                         </li>
@@ -171,10 +171,43 @@
 
 <!-- Schedule Section Start -->
 <div id="schedule" class="section-padding">
-
+    <h2 class="section-title">Schedule</h2>
+    <div class="container text-center">
+        <div class="row">
+            {{#each schedule.days}}
+                <div class="col-md-6 col-sm-12 day">
+                    <h3>{{date}}</h3>
+                    <div class="events">
+                        {{#each events}}
+                            <p><span class="time">{{time}}</span> &nbsp; <span class="event">{{event}}</span></p>
+                        {{/each}}
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+    <!--    <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h3>23rd March, 2019</h3>
+                    <ul>
+                        <li>
+                            Task 1
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h3>24th March, 2019</h3>
+                    <ul>
+                        <li>
+                            Task 1
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>-->
 </div>
 <!-- Schedule Section End -->
-
 <!--FAQ Section Start-->
 <div id="faqs" class="section-padding">
     <h2 class="section-title">FAQs</h2>
@@ -261,7 +294,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="footer-logo mb-3">
-                        <img src="/img/logo.png" alt="">
+                        <img src="/img/logo.png" alt="OnLoad">
                     </div>
                     <p>OnLoad is collaboration of programmers, designers and inventors to code, design and build
                         innovative solutions that tackle real world problems.</p>
@@ -275,7 +308,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
                     <h3 class="footer-title">More</h3>
                     <ul>
-                        <li><a href="https://hackcodeofconduct.org/850-onload" rel="noopener" title="Code of Conduct">Code
+                        <li><a href="https://hackcodeofconduct.org/850-onload" rel="noopener" target="_blank"
+                               title="Code of Conduct">Code
                             of Conduct</a></li>
                         <li><a href="/team" title="Our Team">Our Team</a></li>
                     </ul>

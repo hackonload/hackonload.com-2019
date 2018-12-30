@@ -287,9 +287,6 @@ hr {
     border-top: 1px dotted #ddd;
 }
 
-#schedule {
-    background: #f8f9fb;
-}
 
 .text-wrapper {
     height: 100%;
@@ -302,37 +299,9 @@ hr {
     display: table-cell;
 }
 
-.feature-thumb {
-    margin-right: -60px;
-}
-
 .title-hl {
     font-size: 40px;
     margin-bottom: 30px;
-}
-
-.schedule-box {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.schedule-box .schedule-icon {
-    margin-bottom: 15px;
-}
-
-.schedule-box .schedule-icon i {
-    color: #137ED9;
-    font-size: 30px;
-}
-
-.schedule-box .schedule-content h4 {
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
 }
 
 .sponsors-item-wrapper {
@@ -736,6 +705,18 @@ h4#location a:hover {
 h4#date {
     font-size: 20px;
     color: #f01b32;
+}
+
+.events {
+    line-height: 3em;
+}
+
+span.time {
+    color: #ff0e1a;
+}
+
+span.event {
+    color: #1d1d1d;
 }
 
 #faqs {

@@ -1,6 +1,7 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const faqs = require('./../data/faqs');
+const faqs = require("./../data/faqs");
+const schedule = require("./../data/schedule");
 
 const linksArray = [
 	{
@@ -27,6 +28,7 @@ router.get('/', (req, res, next) => {
 		title: "OnLoad: Load your code",
 		description: "A 30hr intense,  fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.",
 		links: linksArray,
+		schedule: schedule,
 		faqs: faqs
 	};
 	res.render('index', data);
