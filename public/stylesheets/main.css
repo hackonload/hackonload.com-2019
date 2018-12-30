@@ -103,6 +103,7 @@ ul li, ol li {
     background-color: #137ED9;
     position: relative;
     z-index: 1;
+    color: #fff;
 }
 
 .btn-common:hover {
@@ -690,7 +691,7 @@ hr {
 }
 
 #header-wrap {
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.cnn.com/cnnnext/dam/assets/161019180514-heroes-background-2016-full-169.jpg");
 }
 
 .text-center {
@@ -711,7 +712,7 @@ hr {
 }
 
 #home .contents .head-title {
-    color: #585b60;
+    color: #fff3f3;
     font-size: 34px;
     line-height: 48px;
     font-weight: 700;
@@ -720,12 +721,19 @@ hr {
 
 h4#location {
     font-size: 20px;
-    color: #bf71e5;
+}
+
+h4#location a {
+    color: #ced23a;
+}
+
+h4#location a:hover {
+    color: #8d9028;
 }
 
 h4#date {
     font-size: 20px;
-    color: #E91E63;
+    color: #f01b32;
 }
 
 #faqs {
@@ -733,6 +741,7 @@ h4#date {
 }
 
 #faqs button {
+    font-size: large;
     color: #E91E63;
 }
 
