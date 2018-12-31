@@ -3,7 +3,7 @@ const router = express.Router();
 const faqs = require("./../data/faqs");
 const schedule = require("./../data/schedule");
 
-const linksArray = [
+const homePageLinks = [
 	{
 		title: "Home",
 		link: "#home"
@@ -22,12 +22,20 @@ const linksArray = [
 	}
 ];
 
+const teamPageLinks = [
+	{
+		title: "Home",
+		link: "/",
+		internal: false
+	},
+];
+
 /* GET home page. */
 router.get('/', (req, res, next) => {
 	const data = {
 		title: "OnLoad: Load your code",
 		description: "A 30hr intense,  fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.",
-		links: linksArray,
+		links: homePageLinks,
 		schedule: schedule,
 		faqs: faqs,
 		home: true
@@ -39,6 +47,7 @@ router.get('/team', (req, res, next) => {
 	const data = {
 		title: "OnLoad: The Team",
 		description: "Meet the team behind OnLoad",
+		links: teamPageLinks,
 		home: false
 	};
 	res.render('team', data);
