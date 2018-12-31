@@ -33,7 +33,7 @@ const faqs = [
 		id: "faqSix",
 		collapse: "collapseSix",
 		question: "What about Hardware?",
-		answer: "If you have specific hardware in mind, bring it with you. We will be doing our best to lend hardware at the event and enable you to work on your dream hack. We’ll put out a list closer to the event so you can see what’s available."
+		answer: "If you need any hardware mail or tweet us about it. We will try our best to arrange all your hardware needs."
 
 	},
 	{
@@ -46,7 +46,7 @@ const faqs = [
 		id: "faqEight",
 		collapse: "collapseEight",
 		question: "When will application close?",
-		answer: "The application portal will be closed on February 28th at 11:59pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have three days to confirm your attendance."
+		answer: "The application portal will be closed on February 15th at 11:59pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have three days to confirm your attendance."
 	},
 	{
 		id: "faqNine",
