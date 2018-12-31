@@ -28,6 +28,21 @@ const teamPageLinks = [
 		link: "/",
 		internal: false
 	},
+	{
+		title: "Core",
+		link: "#core-team",
+		internal: true
+	},
+	{
+		title: "PR",
+		link: "#pr",
+		internal: true
+	},
+	{
+		title: "Volunteers",
+		link: "#volunteers",
+		internal: true
+	}
 ];
 
 /* GET home page. */

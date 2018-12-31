@@ -1,0 +1,117 @@
+<!-- Header Area-->
+<header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="icon-menu"></span>
+                    <span class="icon-menu"></span>
+                    <span class="icon-menu"></span>
+                </button>
+                <a href="/" class="navbar-brand"><img src="/img/logo.png" alt="OnLoad Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
+                    {{#each links}}
+                        <li class="nav-item">
+                            {{#if internal}}
+                                <a class="nav-link page-scroll" title="{{title}}" href="{{link}}">
+                                    {{title}}
+                                </a>
+                            {{else}}
+                                <a class="nav-link" title="{{title}}" href="{{link}}">
+                                    {{title}}
+                                </a>
+                            {{/if}}
+                        </li>
+                    {{/each}}
+                </ul>
+                <div class="btn-sing float-right">
+                    <a class="btn btn-border" href="/#faqs">FAQs</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu navbar-nav">
+            {{#each links}}
+                <li>
+                    {{#if internal}}
+                        <a class="page-scroll" title="{{title}}" href="{{link}}">
+                            {{title}}
+                        </a>
+                    {{else}}
+                        <a title="{{title}}" href="{{link}}">
+                            {{title}}
+                        </a>
+                    {{/if}}
+                </li>
+            {{/each}}
+            <li>
+                <a title="FAQs" href="/#faqs">
+                    FAQs
+                </a>
+            </li>
+        </ul>
+        <!-- Mobile Menu End -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!--Start -->
+    <div id="home" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="contents text-center">
+                        <h2 class="head-title wow fadeInUp">Meet the team behind OnLoad</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-center">
+                    <h4 id="location"><a href="https://goo.gl/maps/M2och8ac3qT2" rel="noopener" target="_blank"
+                                         title="See on Map"><i
+                            class="fas fa-map-marker"></i> VVCE, Mysuru</a></h4>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <h4 id="date"><i class="fas fa-calendar-day"></i> 23rd-24th March</h4>
+                </div>
+            </div>
+            <br/><br/><br/><br/>
+        </div>
+    </div>
+    <!--End -->
+</header>
+<!-- Header Area End -->
+
+<!-- Core Section Start -->
+<section id="core-team" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.1s">Core Team</h2>
+        </div>
+    </div>
+</section>
+<!-- Core Section End -->
+
+
+<!-- PR Section Start -->
+<section id="pr" class="section-padding">
+    <div class="container text-center">
+        <h2 class="section-title">PR Team</h2>
+
+    </div>
+</section>
+<!-- PR Section End -->
+
+<!--Volunteers Section start-->
+<section id="volunteers" class="section-padding">
+    <div class="container text-center">
+        <h2 class="section-title">Volunteers</h2>
+    </div>
+</section>
+<!--Volunteers Section start-->
