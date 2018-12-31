@@ -64,26 +64,25 @@ const faqs = [
 		id: "faqEleven",
 		collapse: "collapseEleven",
 		question: "Once i am accepted, what do i need to bring?",
-		answer: "A valid government issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses) and a geeky t-shirt!"
+		answer: "A valid college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses) and a geeky t-shirt!"
 	},
 	{
 		id: "faqTwelve",
 		collapse: "collapseTwelve",
 		question: "Do you provide a travel reimbursement?",
 		answer: "Yes! Once accepted, you will have to submit your travel reimbursement forms and receipts on the dashboard. For each location hackers travel from, we’ll determine a reasonable cap. We will reimburse travel costs up to this cap only."
-
 	},
 	{
 		id: "faqThirteen",
 		collapse: "collapseThirteen",
 		question: "What do you get by attending OnLoad?",
-		answer: "Pretty much everything from socializing with fellow hacker community to internship/job offers from the coolest tech companies. And yeah we’ll have prizes for finalist teams, as well as the best hardware hack, and many other company sponsored prizes. Most of all, you will gain an unparalleled learning experience and memories for a lifetime!"
+		answer: "Pretty much everything from socializing with fellow hacker community to internship/job offers from the coolest tech companies. And yeah we’ll have prizes for finalist teams, and many other company sponsored prizes. Most of all, you will gain an unparalleled learning experience and memories for a lifetime!"
 	},
 	{
 		id: "faqFourteen",
 		collapse: "collapseFourteen",
 		question: "How does judging work?",
-		answer: "A panel of some of the judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 5 overall projects will demo what they have built in front of all of OnLoad during our closing ceremonies."
+		answer: "A panel of some of the judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 3 overall projects and some selected will demo what they have built in front of all of OnLoad during our closing ceremonies."
 	}
 ];
 
