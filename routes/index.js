@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const faqs = require("./../data/faqs");
 const schedule = require("./../data/schedule");
+const teams = require("./../data/team");
 
 const homePageLinks = [
 	{
@@ -46,6 +47,7 @@ const teamPageLinks = [
 ];
 
 /* GET home page. */
+// noinspection JSUnusedLocalSymbols,JSUnresolvedFunction
 router.get('/', (req, res, next) => {
 	const data = {
 		title: "OnLoad: Load your code",
@@ -58,11 +60,15 @@ router.get('/', (req, res, next) => {
 	res.render('index', data);
 });
 
+// noinspection JSUnusedLocalSymbols,JSUnresolvedFunction
 router.get('/team', (req, res, next) => {
 	const data = {
 		title: "OnLoad: The Team",
 		description: "Meet the team behind OnLoad",
 		links: teamPageLinks,
+		coreTeam: teams.coreTeam,
+		prTeam: teams.prTeam,
+		volunteers: teams.volunteers,
 		home: false
 	};
 	res.render('team', data);

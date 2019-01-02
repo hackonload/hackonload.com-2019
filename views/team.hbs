@@ -67,7 +67,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="contents text-center">
-                        <h2 class="head-title wow fadeInUp">Meet the team behind OnLoad</h2>
+                        <h2 class="head-title wow fadeInUp">Great things in organizations are never done by one person,
+                            the are done by a team of People...<br/><br/>Meet the team behind OnLoad</h2>
                     </div>
                 </div>
             </div>
@@ -94,6 +95,23 @@
         <div class="section-header text-center">
             <h2 class="section-title wow fadeInDown" data-wow-delay="0.1s">Core Team</h2>
         </div>
+        <div class="row">
+            {{#each coreTeam}}
+                <div class="col-md-6 col-lg-4 col-xs-12" style="padding: 15px">
+                    <div class="card">
+                        <img src="/img/team/{{pic}}" class="card-img-top team-pic" alt="{{name}}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{name}}</h5>
+                            <p class="card-text">{{bio}}</p>
+                            {{#if link}}
+                                <a href="{{link}}" class="btn btn-primary" rel="noopener" title="External"
+                                   target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
     </div>
 </section>
 <!-- Core Section End -->
@@ -103,7 +121,23 @@
 <section id="pr" class="section-padding">
     <div class="container text-center">
         <h2 class="section-title">PR Team</h2>
-
+        <div class="row">
+            {{#each prTeam}}
+                <div class="col-md-6 col-lg-4 col-xs-12" style="padding: 15px">
+                    <div class="card">
+                        <img src="/img/team/{{pic}}" class="card-img-top team-pic" alt="{{name}}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{name}}</h5>
+                            <p class="card-text">{{bio}}</p>
+                            {{#if link}}
+                                <a href="{{link}}" class="btn btn-primary" rel="noopener" title="External"
+                                   target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
     </div>
 </section>
 <!-- PR Section End -->
@@ -112,6 +146,13 @@
 <section id="volunteers" class="section-padding">
     <div class="container text-center">
         <h2 class="section-title">Volunteers</h2>
+        <div class="row">
+            {{#each volunteers}}
+                <div class="col-md-6 col-lg-4 col-xs-12">
+
+                </div>
+            {{/each}}
+        </div>
     </div>
 </section>
 <!--Volunteers Section start-->

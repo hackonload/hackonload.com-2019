@@ -850,3 +850,8 @@ textarea {
 #copyright p a:hover {
     color: #137ED9;
 }
+
+.team-pic {
+    height: 400px;
+    width: auto;
+}
