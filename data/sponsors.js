@@ -1,8 +1,13 @@
 const sponsors = [
 	{
-		name: "JetBrains",
+		name: "DevFolio",
 		logo: "",
-		link: "",
+		link: "https://devfolio.co"
+	},
+	{
+		name: "JetBrains",
+		logo: "/img/sponsors/jetbrains.png",
+		link: "https://www.jetbrains.com/",
 	}
 
 ];

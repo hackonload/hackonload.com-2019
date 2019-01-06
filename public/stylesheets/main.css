@@ -311,10 +311,6 @@ hr {
 
 /*noinspection CssInvalidPropertyValue*/
 .sponsors-item-wrapper img {
-    opacity: 0.5;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    filter: gray;
     transition: all .6s ease;
     -moz-transition: all .6s ease;
     -webkit-transition: all .6s ease;
@@ -322,8 +318,7 @@ hr {
 
 .sponsors-item-wrapper:hover img {
     opacity: 1;
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
+    transform: scale(1.2);
 }
 
 .about-title {

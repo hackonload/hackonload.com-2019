@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const faqs = require("./../data/faqs");
 const schedule = require("./../data/schedule");
+const sponsors = require("./../data/sponsors");
 const teams = require("./../data/team");
 
 const homePageLinks = [
@@ -55,7 +56,7 @@ router.get('/', (req, res, next) => {
 		links: homePageLinks,
 		schedule: schedule,
 		faqs: faqs,
-		sponsors: [],
+		sponsors: sponsors,
 		home: true
 	};
 	res.render('index', data);
