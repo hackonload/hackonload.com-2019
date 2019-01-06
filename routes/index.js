@@ -55,6 +55,7 @@ router.get('/', (req, res, next) => {
 		links: homePageLinks,
 		schedule: schedule,
 		faqs: faqs,
+		sponsors: [],
 		home: true
 	};
 	res.render('index', data);
