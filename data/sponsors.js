@@ -1,9 +1,9 @@
 const sponsors = [
-	{
+	/*{
 		name: "DevFolio",
 		logo: "",
 		link: "https://devfolio.co"
-	},
+	},*/
 	{
 		name: "JetBrains",
 		logo: "/img/sponsors/jetbrains.png",
