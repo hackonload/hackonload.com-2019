@@ -70,7 +70,7 @@ const faqs = [
 		id: "faqTwelve",
 		collapse: "collapseTwelve",
 		question: "Do you provide a travel reimbursement?",
-		answer: "Yes! Once accepted, you will have to submit your travel reimbursement forms and receipts on the dashboard. For each location hackers travel from, we’ll determine a reasonable cap. We will reimburse travel costs up to this cap only."
+		answer: "No. But keep checking this might change."
 	},
 	{
 		id: "faqThirteen",
