@@ -868,6 +868,11 @@ textarea {
     text-transform: none;
 }
 
+.btn[disabled] {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 #devfolio-apply-now:not([disabled]) {
     cursor: pointer;
 }
