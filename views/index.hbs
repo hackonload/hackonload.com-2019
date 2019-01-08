@@ -192,26 +192,28 @@
 
 <!--FAQ Section Start-->
 <div id="faqs" class="section-padding">
-    <h2 class="section-title">FAQs</h2>
-    <div class="accordion" id="accordionFaq">
-        {{#each faqs}}
-            <div class="card">
-                <div class="card-header" id="{{id}}">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                data-target="#{{collapse}}"
-                                aria-expanded="true" aria-controls="{{collapse}}">
-                            <i class="fas fa-plus-circle plus-minus"></i> {{question}}
-                        </button>
-                    </h5>
-                </div>
-                <div id="{{collapse}}" class="collapse" aria-labelledby="{{id}}" data-parent="#accordionFaq">
-                    <div class="card-body">
-                        {{answer}}
+    <div class="container">
+        <h2 class="section-title">FAQs</h2>
+        <div class="row accordion" id="accordionFaq">
+            {{#each faqs}}
+                <div class="col-md-6 col-sm-12 card" style="padding: 0">
+                    <div class="card-header" id="{{id}}">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#{{collapse}}"
+                                    aria-expanded="true" aria-controls="{{collapse}}">
+                                <i class="fas fa-plus-circle plus-minus"></i> {{question}}
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="{{collapse}}" class="collapse" aria-labelledby="{{id}}" data-parent="#accordionFaq">
+                        <div class="card-body">
+                            {{answer}}
+                        </div>
                     </div>
                 </div>
-            </div>
-        {{/each}}
+            {{/each}}
+        </div>
     </div>
     <br/><br/>
     <div class="row">
