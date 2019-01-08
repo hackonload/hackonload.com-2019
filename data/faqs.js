@@ -70,7 +70,7 @@ const faqs = [
 		id: "faqTwelve",
 		collapse: "collapseTwelve",
 		question: "Do you provide a travel reimbursement?",
-		answer: "No. But keep checking this might change."
+		answer: "No, But we don’t want money to keep you from experiencing OnLoad.If you need help making your way to Mysuru contact us and we’ll see what we can do."
 	},
 	{
 		id: "faqThirteen",
@@ -83,6 +83,12 @@ const faqs = [
 		collapse: "collapseFourteen",
 		question: "How does judging work?",
 		answer: "A panel of some of the judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 3 overall projects and some selected will demo what they have built in front of all of OnLoad during our closing ceremonies."
+	},
+	{
+		id: "faqFifteen",
+		collapse: "collapseFifteen",
+		question: "How to reach VVCE, Mysuru?",
+		answer: "Mysore is just 3hr journey from Bengaluru by train/bus. We will send you a detailed guide once you are accepted."
 	}
 ];
 
