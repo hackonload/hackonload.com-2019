@@ -1,9 +1,14 @@
 const sponsors = [
-	/*{
+	{
 		name: "DevFolio",
-		logo: "",
+		logo: "/img/sponsors/devfolio.svg",
 		link: "https://devfolio.co"
-	},*/
+	},
+	{
+		name: "Matic",
+		logo: "/img/sponsors/matic.png",
+		link: "https://matic.network/"
+	},
 	{
 		name: "Bugsee",
 		logo: "/img/sponsors/bugsee.png",
