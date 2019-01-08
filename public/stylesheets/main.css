@@ -879,3 +879,9 @@ textarea {
 #devfolio-apply-now:hover {
     background-color: #2954BF !important;
 }
+
+#devfolio-apply-now .logo {
+    /* Please keep the color of Devfolio logo mark either whit
+    e (#FFFFFF) or black (#000000) */
+    fill: white;
+}
