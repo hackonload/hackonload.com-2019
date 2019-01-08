@@ -57,6 +57,7 @@ router.get('/', (req, res, next) => {
 		schedule: schedule,
 		faqs: faqs,
 		sponsors: sponsors,
+		og_url: "https://hackonload.com",
 		home: true
 	};
 	res.render('index', data);
@@ -67,6 +68,7 @@ router.get('/team', (req, res, next) => {
 	const data = {
 		title: "OnLoad: The Team",
 		description: "Meet the team behind OnLoad",
+		og_url: "https://hackonload.com/team",
 		links: teamPageLinks,
 		coreTeam: teams.coreTeam,
 		prTeam: teams.prTeam,
