@@ -15,6 +15,11 @@ const sponsors = [
 		link: "https://www.bugsee.com/"
 	},
 	{
+		name: "GitHub",
+		logo: "/img/sponsors/github.png",
+		link: "https://github.com/",
+	},
+	{
 		name: "JetBrains",
 		logo: "/img/sponsors/jetbrains.png",
 		link: "https://www.jetbrains.com/",
