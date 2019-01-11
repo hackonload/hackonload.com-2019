@@ -667,7 +667,9 @@ hr {
 }
 
 #header-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/hero-bg.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/img/hero-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .text-center {
@@ -706,12 +708,12 @@ h4#location a {
 }
 
 h4#location a:hover {
-    color: #8d9028;
+    color: #67691d;
 }
 
 h4#date {
     font-size: 20px;
-    color: #f01b32;
+    color: #30dbc0;
 }
 
 .events {
@@ -726,13 +728,21 @@ span.event {
     color: #1d1d1d;
 }
 
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
 #faqs {
     color: #000000;
 }
 
 #faqs button {
     font-size: large;
-    color: #E91E63;
+    color: #137ed9;
 }
 
 #faqs h2 {
