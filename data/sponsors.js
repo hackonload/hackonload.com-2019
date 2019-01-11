@@ -2,22 +2,24 @@ const sponsors = [
 	{
 		name: "DevFolio",
 		logo: "/img/sponsors/devfolio.svg",
-		link: "https://devfolio.co"
+		link: "https://devfolio.co",
+		diamond: true
 	},
 	{
 		name: "Matic",
 		logo: "/img/sponsors/matic.png",
-		link: "https://matic.network/"
-	},
-	{
-		name: "Bugsee",
-		logo: "/img/sponsors/bugsee.png",
-		link: "https://www.bugsee.com/"
+		link: "https://matic.network/",
+		diamond: true
 	},
 	{
 		name: "GitHub",
 		logo: "/img/sponsors/github.png",
 		link: "https://github.com/",
+	},
+	{
+		name: "Bugsee",
+		logo: "/img/sponsors/bugsee.png",
+		link: "https://www.bugsee.com/",
 	},
 	{
 		name: "JetBrains",

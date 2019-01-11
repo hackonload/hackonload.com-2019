@@ -306,7 +306,7 @@ hr {
 
 .sponsors-item-wrapper {
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
 
 /*noinspection CssInvalidPropertyValue*/
@@ -316,9 +316,21 @@ hr {
     -webkit-transition: all .6s ease;
 }
 
+.top-tier img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.default-tier img {
+    max-width: 50%;
+    height: auto;
+
+}
+
 .sponsors-item-wrapper:hover img {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .about-title {
