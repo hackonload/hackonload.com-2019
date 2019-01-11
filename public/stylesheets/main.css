@@ -667,9 +667,10 @@ hr {
 }
 
 #header-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/img/hero-bg.webp");
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/hero-bg.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-center {
