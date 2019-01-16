@@ -68,8 +68,8 @@ const faqs = [
 	{
 		id: "faqTwelve",
 		collapse: "collapseTwelve",
-		question: "Do you provide a travel reimbursement?",
-		answer: "No, But we don’t want money to keep you from experiencing OnLoad.If you need help making your way to Mysuru contact us and we’ll see what we can do."
+		question: "Do you provide travel reimbursement?",
+		answer: "No, But we don’t want money to keep you from experiencing OnLoad. If you need help making your way to Mysuru contact us and we’ll see what we can do."
 	},
 	{
 		id: "faqThirteen",
