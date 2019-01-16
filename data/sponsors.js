@@ -35,6 +35,11 @@ const sponsors = [
 		name: "CloudSploit",
 		logo: "/img/sponsors/cloudsploit.png",
 		link: "https://cloudsploit.com/"
+	},
+	{
+		name: "Sketch",
+		logo: "/img/sponsors/sketch.svg",
+		link: "https://sketchapp.com/"
 	}
 
 ];
