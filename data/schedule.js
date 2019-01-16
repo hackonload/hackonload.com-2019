@@ -4,16 +4,12 @@ const schedule = {
 			date: "23rd March, 2019",
 			events: [
 				{
-					time: "07:00 A.M.",
+					time: "08:00 A.M.",
 					event: "Registration Begins!"
 				},
 				{
-					time: "08:00 A.M.",
-					event: "Breakfast"
-				},
-				{
 					time: "09:00 A.M.",
-					event: "Team Formation"
+					event: "Opening Ceremony"
 				},
 				{
 					time: "10:00 A.M.",
@@ -49,22 +45,17 @@ const schedule = {
 					event: "Lunch"
 				},
 				{
-					time: "05:00 P.M.",
+					time: "04:00 P.M.",
 					event: "Hacking stops and Judging Begins"
 				},
 				{
-					time: "7:00 P.M",
+					time: "6:00 P.M",
 					event: "Results"
 				},
 				{
-					time: "8:00 P.M",
-					event: "Dinner"
-				},
-				{
-					time: "9:00 P.M",
+					time: "7:30 P.M",
 					event: "GoodBye!"
-				},
-
+				}
 			]
 		}
 	]
