@@ -17,6 +17,11 @@ const sponsors = [
 		link: "https://github.com/",
 	},
 	{
+		name: "Wolfram",
+		logo: "/img/sponsors/wolfram.png",
+		link: "https://www.wolframalpha.com/",
+	},
+	{
 		name: "Bugsee",
 		logo: "/img/sponsors/bugsee.png",
 		link: "https://www.bugsee.com/",
