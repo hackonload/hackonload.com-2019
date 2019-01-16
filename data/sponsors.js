@@ -26,6 +26,11 @@ const sponsors = [
 		logo: "/img/sponsors/jetbrains.png",
 		link: "https://www.jetbrains.com/",
 	},
+	{
+		name: "CloudSploit",
+		logo: "/img/sponsors/cloudsploit.png",
+		link: "https://cloudsploit.com/"
+	}
 
 ];
 
