@@ -39,24 +39,36 @@ const coreTeam = [
 
 const prTeam = [
 	{
-		name: "Akshay S.B.",
-		pic: "sb.jpeg",
-		bio: "Another computer science engineer interested in drawing, graphics & animation. ",
-		link: "https://www.linkedin.com/in/akshay-sb-a46653165"
-	},
-	{
 		name: "Avineet Bhat",
 		pic: "avineet.jpeg",
 		bio: "I am passionate about my work...because i love what i do...I thrive on challenge and set goals for myself so i have something to strive toward.",
 		link: "https://www.linkedin.com/in/avineet-bhat-404a68178/"
+	},
+	{
+		name: "Pooja N.G.",
+		pic: "pooja.jpg",
+		bio: "Passionate about learning , exploring and implementing something new in the field of Computer Science and Engineering. Aiming to achieve the best.",
+	},
+	{
+		name: "Vibha Prasad",
+		pic: "vibha.jpg",
+		bio: "Outdoor enthusiast. Ambivert. Seeks challenges. ",
+		link: "https://www.linkedin.com/in/vibha-prasad-2946b515b/"
+	},
+	{
+		name: "Neha R.",
+		pic: "neha.jpg",
+		bio: "Singing is my hobby!!! Exploring new things is my passion!!!! Working hard to achieve whatever i wish is my moto!!!",
+		link: "https://www.linkedin.com/in/neha-r-8288b6173"
 	}
 ];
 
 const volunteers = [
 	{
-		name: "",
-		pic: "",
-		bio: ""
+		name: "Akshay S.B.",
+		pic: "sb.jpeg",
+		bio: "Another computer science engineer interested in drawing, graphics & animation. ",
+		link: "https://www.linkedin.com/in/akshay-sb-a46653165"
 	}
 ];
 

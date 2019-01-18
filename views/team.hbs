@@ -148,8 +148,18 @@
         <h2 class="section-title">Volunteers</h2>
         <div class="row">
             {{#each volunteers}}
-                <div class="col-md-6 col-lg-4 col-xs-12">
-
+                <div class="col-md-6 col-lg-4 col-xs-12" style="padding: 15px">
+                    <div class="card">
+                        <img src="/img/team/{{pic}}" class="card-img-top team-pic" alt="{{name}}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{name}}</h5>
+                            <p class="card-text">{{bio}}</p>
+                            {{#if link}}
+                                <a href="{{link}}" class="btn btn-primary" rel="noopener" title="External"
+                                   target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            {{/if}}
+                        </div>
+                    </div>
                 </div>
             {{/each}}
         </div>
