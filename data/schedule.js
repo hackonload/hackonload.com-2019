@@ -49,6 +49,10 @@ const schedule = {
 					event: "Hacking stops and Judging Begins"
 				},
 				{
+					time: "05:00 P.M.",
+					event: "Snacks time"
+				},
+				{
 					time: "6:00 P.M",
 					event: "Results"
 				},
