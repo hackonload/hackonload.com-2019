@@ -60,6 +60,12 @@ const prTeam = [
 		pic: "neha.jpg",
 		bio: "Singing is my hobby!!! Exploring new things is my passion!!!! Working hard to achieve whatever i wish is my moto!!!",
 		link: "https://www.linkedin.com/in/neha-r-8288b6173"
+	},
+	{
+		name: "Soujanya Vernekar",
+		pic: "soujanya.jpg",
+		bio: "I am a passionate learner.  I m interested in new technology n coding. I love traveling n discovering places and culture .",
+		link: "https://www.linkedin.com/in/soujanya-satish-vernekar-82702116b"
 	}
 ];
 
