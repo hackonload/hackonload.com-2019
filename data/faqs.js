@@ -3,7 +3,7 @@ const faqs = [
 		id: "faqOne",
 		collapse: "collapseOne",
 		question: "Who can participate?",
-		answer: "All the students are welcome to apply, be it school or college. If you are under 18 years of age, we’ll need a parental consent form. If you are not a student you can still be a part as mentor, judge etc. If interested write to us at contact@hackonload.com"
+		answer: "All the students are welcome to apply, be it school or college. If you are under 18 years of age, we’ll need a parental consent form. If you are not a student you can still be a part as mentor, judge etc. If interested write to us at volunteer@hackonload.com"
 	},
 	{
 		id: "faqTwo",
@@ -39,7 +39,7 @@ const faqs = [
 		id: "faqSeven",
 		collapse: "collapseSeven",
 		question: "I don't want to hack, but i still get involved? ",
-		answer: "If you're looking to be a volunteer or mentor (i.e. someone with technical skills who'd be willing to help out participants during the weekend), you should reach out to us at contact@hackinout.co. If your company is interested in becoming a sponsor, write to us at sponsor@hackonload.com."
+		answer: "If you're looking to be a volunteer or mentor (i.e. someone with technical skills who'd be willing to help out participants during the weekend), you should reach out to us at volunteer@hackonload.com. If your company is interested in becoming a sponsor, write to us at sponsor@hackonload.com."
 	},
 	{
 		id: "faqEight",
