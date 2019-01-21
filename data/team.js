@@ -20,7 +20,7 @@ const coreTeam = [
 	{
 		name: "Prajwal Hebbar",
 		pic: "prajwal.png",
-		bio: "Believes there is answer for every problem!!!! Curious enough to dig into different paths of learning!!!!! N always searching for knowledge to learn!!!!",
+		bio: "Believes there is answer for every problem. Curious enough to dig into different paths of learning & always searching for knowledge to learn",
 		link: "https://www.linkedin.com/in/prajwal-hebbar-a-s-167828173"
 	},
 	{
