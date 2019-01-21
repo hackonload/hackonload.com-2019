@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #fbfbfb;
+    background: #ffffff;
     font-size: 16px;
     font-family: 'Cabin', sans-serif;
     -webkit-box-sizing: border-box;
@@ -32,6 +32,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: #58286e;
 }
 
 a a:focus {
@@ -675,7 +676,7 @@ hr {
 }
 
 #header-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/hero-bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/hero-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -833,27 +834,7 @@ textarea {
 }
 
 .footer-area ul li a:hover {
-    color: #137ED9;
-}
-
-.footer-area #subscribe-form {
-    margin-top: 15px;
-}
-
-.footer-area #subscribe-form .form-group {
-    position: relative;
-}
-
-.footer-area #subscribe-form .form-group .btn-common {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 7px 15px;
-    height: 39px;
-    border-radius: 0;
-    background: transparent;
-    color: #137ED9;
-    border-left: 1px solid #ddd;
+    color: #883eaa;
 }
 
 #copyright {
