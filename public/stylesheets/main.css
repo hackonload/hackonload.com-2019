@@ -113,6 +113,16 @@ ul li, ol li {
     -webkit-transition: all .2s ease-in-out;
 }
 
+.btn-primary {
+    background-color: #883eaa;
+    border-color: #883eaa;
+}
+
+.btn-primary:hover {
+    background-color: #502464;
+    border-color: #502464;
+}
+
 .btn-border {
     color: #883eaa;
     background-color: transparent;
@@ -870,6 +880,11 @@ textarea {
 .team-pic {
     height: 400px;
     width: auto;
+}
+
+.ext-link {
+    width: 150px;
+    text-align: center;
 }
 
 #devfolio-apply-now {
