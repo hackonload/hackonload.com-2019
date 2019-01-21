@@ -19,6 +19,10 @@ const homePageLinks = [
 		link: "#schedule"
 	},
 	{
+		title: "FAQs",
+		link: "#faqs"
+	},
+	{
 		title: "Sponsors",
 		link: "#sponsors"
 	}
