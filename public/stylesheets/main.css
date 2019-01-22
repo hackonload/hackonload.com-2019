@@ -903,3 +903,7 @@ textarea {
     e (#FFFFFF) or black (#000000) */
     fill: black;
 }
+
+.btn-apply {
+    width: 100px;
+}
