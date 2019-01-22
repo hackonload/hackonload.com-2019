@@ -75,6 +75,18 @@ const volunteers = [
 		pic: "sb.jpeg",
 		bio: "Another computer science engineer interested in drawing, graphics & animation. ",
 		link: "https://www.linkedin.com/in/akshay-sb-a46653165"
+	},
+	{
+		name: "Umesh A",
+		pic: "umesh.jpeg",
+		bio: "Tech junkie , open source enthusiast and noob android application developer.",
+		link: "https://github.com/Umesh-A"
+	},
+	{
+		name: "Nikhil",
+		pic: "nikhil.jpeg",
+		bio: "Techie with a zeal to learn new things.",
+		link: "https://www.linkedin.com/in/nikhil-ramesh-425762172"
 	}
 ];
 
