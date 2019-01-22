@@ -59,23 +59,24 @@
                             programmers, designers and developers to build something amazing. </h2>
                         <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
                             <button id="devfolio-apply-now"
-                                    onclick="ga('send', 'event', 'Button', 'Apply', 'Applications', 1);"></button>
+                                    onclick="ga('send', 'event', 'Button', 'Apply', 'Applications', 1);">
+                            </button>
+                            <br/><br/><br/>
+                            <h4 id="location">
+                                <a href="https://goo.gl/maps/M2och8ac3qT2" rel="noopener" target="_blank"
+                                   title="See on Map">
+                                    <i class="fas fa-map-marker"></i> VVCE, Mysuru
+                                </a>
+                            </h4>
+                            <br/>
+                            <h4 id="date">
+                                <i class="fas fa-calendar-day"></i> 23rd-24th March
+                            </h4>
                         </div>
                         <br/>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 text-center">
-                    <h4 id="location"><a href="https://goo.gl/maps/M2och8ac3qT2" rel="noopener" target="_blank"
-                                         title="See on Map"><i
-                            class="fas fa-map-marker"></i> VVCE, Mysuru</a></h4>
-                </div>
-                <div class="col-md-6 col-sm-12 text-center">
-                    <h4 id="date"><i class="fas fa-calendar-day"></i> 23rd-24th March</h4>
-                </div>
-            </div>
-            <br/><br/><br/><br/>
         </div>
     </div>
     <!--End -->
@@ -188,7 +189,7 @@
         <div class="row">
             {{#each schedule.days}}
                 <div class="col-md-6 col-sm-12 day">
-                    <h3>{{date}}</h3>
+                    <h3 class="date">{{date}}</h3>
                     <div class="events">
                         {{#each events}}
                             <p><span class="time">{{time}}</span> &nbsp; <span class="event">{{event}}</span></p>
@@ -234,7 +235,7 @@
                 <i class="fas fa-envelope"></i> <a href="mailto:contact@hackonload.com">contact@hackonload.com</a>
             </h5>
         </div>
-        <br/><br/><br/><br/>
+        <br/><br/>
         <div class="col-sm-12 text-center">
             <h6>Make sure you follow us on our social handles for announcements and news.</h6>
         </div>

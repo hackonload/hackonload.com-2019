@@ -17,9 +17,15 @@ body {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: 'Crossten ExtraBold';
+    src: url('/fonts/crossten_extrabold-webfont.woff2') format('woff2'),
+    url('/fonts/crossten_extrabold-webfont.woff') format('woff');
+}
+
 h1, h2, h3, h4 {
     color: #2f3033;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Crossten ExtraBold', sans-serif;
 }
 
 a {
@@ -63,6 +69,7 @@ ul li, ol li {
 }
 
 .section-title {
+    font-family: 'Crossten ExtraBold', sans-serif;
     color: #883eaa;
     font-size: 38px;
     text-align: center;
@@ -344,6 +351,7 @@ hr {
 
 .about-title {
     color: #883eaa;
+    font-family: 'Crossten ExtraBold', sans-serif;
 }
 
 /* about Item */
@@ -400,7 +408,6 @@ hr {
     animation-fill-mode: both;
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    background: #fff !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -676,7 +683,7 @@ hr {
 }
 
 #header-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/hero-bg.jpg");
+    background-image: url("/img/hero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -702,6 +709,7 @@ hr {
 }
 
 #home .contents .head-title {
+    font-family: 'Crossten ExtraBold', sans-serif;
     color: #fff3f3;
     font-size: 34px;
     line-height: 48px;
@@ -711,19 +719,25 @@ hr {
 
 h4#location {
     font-size: 20px;
+    font-family: 'Crossten ExtraBold', sans-serif;
 }
 
 h4#location a {
-    color: #883eaa;
+    color: #ffffff;
 }
 
 h4#location a:hover {
-    color: #56276b;
+    color: #a7a7a7;
 }
 
 h4#date {
     font-size: 20px;
-    color: #883eaa;
+    color: #ffffff;
+    font-family: 'Crossten ExtraBold', sans-serif;
+}
+
+#schedule.date {
+    font-family: 'Crossten ExtraBold', sans-serif;
 }
 
 .events {
@@ -767,24 +781,6 @@ span.event {
 
 .sloder-img {
     background: #34363a;
-}
-
-.form-control {
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 14px;
-    border-radius: 30px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    padding: 8px 20px;
-    border: 1px solid #abacae;
-}
-
-.form-control:focus {
-    border-color: #883eaa;
-    box-shadow: none;
-    outline: none;
 }
 
 textarea {
@@ -872,10 +868,10 @@ textarea {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    background-color: #883eaa;
+    background-color: #ffffff;
     border-radius: 5px;
     border: none;
-    color: #FFFFFF;
+    color: #000000;
     cursor: pointer;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe U I', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 18px;
@@ -894,11 +890,11 @@ textarea {
 }
 
 #devfolio-apply-now:hover {
-    background-color: #532668 !important;
+    background-color: #a7a7a7 !important;
 }
 
 #devfolio-apply-now .logo {
     /* Please keep the color of Devfolio logo mark either whit
     e (#FFFFFF) or black (#000000) */
-    fill: white;
+    fill: black;
 }
