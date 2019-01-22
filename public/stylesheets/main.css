@@ -375,6 +375,10 @@ hr {
     color: #883eaa;
 }
 
+.about-img {
+    transform: scale(0.8);
+}
+
 .about-item .about-content h3 {
     margin-top: 10px;
     font-weight: 500;
