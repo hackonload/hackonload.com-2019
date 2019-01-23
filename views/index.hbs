@@ -255,19 +255,11 @@
         <div class="row text-align-">
             {{#each sponsors}}
                 <div class="col-lg-4 col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
-                    {{#if diamond}}
-                        <div class="sponsors-item-wrapper top-tier">
-                            <a href="{{link}}" title="{{name}}">
-                                <img class="img-fluid" src="{{logo}}" alt="{{name}}"/>
-                            </a>
-                        </div>
-                    {{else}}
-                        <div class="sponsors-item-wrapper default-tier">
-                            <a href="{{link}}" title="{{name}}">
-                                <img class="img-fluid" src="{{logo}}" alt="{{name}}"/>
-                            </a>
-                        </div>
-                    {{/if}}
+                    <div class="sponsors-item-wrapper {{#if diamond}}top-tier{{else}}default-tier{{/if}}">
+                        <a href="{{link}}" title="{{name}}" target="_blank">
+                            <img class="img-fluid" src="{{logo}}" alt="{{name}}"/>
+                        </a>
+                    </div>
                 </div>
             {{/each}}
         </div>
