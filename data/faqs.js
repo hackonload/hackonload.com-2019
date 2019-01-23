@@ -63,7 +63,7 @@ const faqs = [
 		id: "faqEleven",
 		collapse: "collapseEleven",
 		question: "Once i am accepted, what do i need to bring?",
-		answer: "A valid college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses) and a geeky t-shirt!"
+		answer: "A valid government & a college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses) and a geeky t-shirt!"
 	},
 	{
 		id: "faqTwelve",
@@ -88,6 +88,12 @@ const faqs = [
 		collapse: "collapseFifteen",
 		question: "How to reach VVCE, Mysuru?",
 		answer: "Mysore is just 3hr journey from Bengaluru by train/bus. We will send you a detailed guide once you are accepted."
+	},
+	{
+		id: "faqSixteen",
+		collapse: "collapseSixteen",
+		question: "Can I start working on the project before the event?",
+		answer: "No. In the interest of fairness, students should not be working on their projects before OnLoad begins and we do not allow participants to work on pre-existing projects. However, you can start thinking of ideas and familiarize yourself with all the tools and technologies you intend to use beforehand!"
 	}
 ];
 
