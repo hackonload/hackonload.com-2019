@@ -27,6 +27,10 @@ const sponsors = [
 		link: "https://www.bugsee.com/",
 	},
 	{
+		name: "JetBrains",
+		logo: "/img/sponsors/jetbrains.png"
+	},
+	{
 		name: "CloudSploit",
 		logo: "/img/sponsors/cloudsploit.png",
 		link: "https://cloudsploit.com/"
