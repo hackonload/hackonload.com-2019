@@ -39,6 +39,11 @@ const sponsors = [
 		name: "Sketch",
 		logo: "/img/sponsors/sketch.svg",
 		link: "https://sketchapp.com/"
+	},
+	{
+		name: "Temboo",
+		logo: "/img/sponsors/temboo.png",
+		link: "https://temboo.com/signup"
 	}
 
 ];
