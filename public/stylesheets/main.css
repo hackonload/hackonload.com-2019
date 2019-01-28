@@ -772,6 +772,7 @@ span.event {
 #faqs button {
     font-size: large;
     color: #883eaa;
+    text-align: left;
 }
 
 #faqs h2 {
