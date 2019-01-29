@@ -3,7 +3,7 @@ const transporter = require('./mail-config');
 const htmlMail = (to, subject, body, callback) => {
 
 	const data = {
-		from: 'contact@hackonload.com',
+		from: "OnLoad Hackathon <contact@hackonload.com>",
 		to: to,
 		subject: subject,
 		html: body
@@ -15,7 +15,7 @@ const htmlMail = (to, subject, body, callback) => {
 const textMail = (to, subject, body, callback) => {
 
 	const data = {
-		from: 'contact@hackonload.com',
+		from: "OnLoad Hackathon <contact@hackonload.com>",
 		to: to,
 		subject: subject,
 		text: body
