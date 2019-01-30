@@ -1,7 +1,7 @@
 const participants = [
 	{
 		name: "Pushkar",
-		email: "pushkar@hackonload.com",
+		email: "anandpushkar088@gmail.com",
 		phone: "9876543210",
 		slack_invite_sent: false
 	}

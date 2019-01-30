@@ -34,5 +34,5 @@ for (let i = 0; i < participants.length; i++) {
 	} else {
 		logARR.push(participant);
 	}
-	mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", logARR.toString(), callback);
+	mailer.htmlMail("anandpushkar088@gmail.com", "Mail Data", JSON.stringify(logARR), callback);
 }
