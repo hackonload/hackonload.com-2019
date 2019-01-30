@@ -22,11 +22,11 @@ for (let i = 0; i < participants.length; i++) {
 	let slack_invite_sent = participant.slack_invite_sent;
 
 	if (!slack_invite_sent) {
-		mailer.sendSlackInviteEmail(name, email).then((info) => {
+		participant.slack_invite_sent = true;
+		await mailer.sendSlackInviteEmail(name, email).then((info) => {
 			console.log(info);
-			participant.slack_invite_sent = true;
 		}).catch((err) => {
-		    console.log("Error in sending");
+		    console.log("Error in sending mail to " + email);
 			console.log(err);
 			mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err.toString(), callback);
 		});
