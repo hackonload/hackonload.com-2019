@@ -23,7 +23,7 @@ for (let i = 0; i < participants.length; i++) {
 
 	if (!slack_invite_sent) {
 		participant.slack_invite_sent = true;
-		await mailer.sendSlackInviteEmail(name, email).then((info) => {
+		mailer.sendSlackInviteEmail(name, email).then((info) => {
 			console.log(info);
 		}).catch((err) => {
 		    console.log("Error in sending mail to " + email);
