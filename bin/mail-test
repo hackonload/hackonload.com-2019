@@ -3,7 +3,7 @@
 const mailer = require("./../mail/mailer");
 
 const callback = (err, info) => {
-	if(err) {
+	if (err) {
 		console.log(err);
 	} else {
 		console.log(info.envelope);
@@ -11,5 +11,5 @@ const callback = (err, info) => {
 	}
 };
 
-mailer.htmlMail("anandpushkar088@gmail.com", "Test mail","<h1>Welcome</h1><p>That was easy!</p>", callback);
+mailer.htmlMail("anandpushkar088@gmail.com", "Test mail", "<h1>Welcome</h1><p>That was easy!</p>", callback);
 
