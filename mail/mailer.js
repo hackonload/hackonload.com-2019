@@ -40,7 +40,6 @@ const sendSlackInviteEmail = (toName, toEmail) => {
 };
 
 module.exports = {
-	textMail,
 	htmlMail,
 	sendSlackInviteEmail
 };

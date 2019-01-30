@@ -26,13 +26,13 @@ for (let i = 0; i < participants.length; i++) {
 			console.log(info);
 			participant.slack_invite_sent = true;
 		}).catch((err) => {
+		    console.log("Error in sending");
 			console.log(err);
-			//TODO send err mail
-			mailer.textMail("anandpushkar088@gmail.com", "Error in mail", err, callback);
+			mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err, callback);
 		});
 		logARR.push(participant);
 	} else {
 		logARR.push(participant);
 	}
-	mailer.textMail("anandpushkar088@gmail.com", "Error in mail", logARR.toString(), callback);
+	mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", logARR.toString(), callback);
 }
