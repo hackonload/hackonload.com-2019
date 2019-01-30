@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const mailer = require("./mailer");
+const mailer = require("./../mail/mailer");
 
 const callback = (err, info) => {
 	if (err) {
