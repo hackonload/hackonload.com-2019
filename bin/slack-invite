@@ -28,7 +28,7 @@ for (let i = 0; i < participants.length; i++) {
 		}).catch((err) => {
 		    console.log("Error in sending");
 			console.log(err);
-			mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err, callback);
+			mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err.toString(), callback);
 		});
 		logARR.push(participant);
 	} else {
