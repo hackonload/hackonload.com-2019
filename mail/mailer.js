@@ -36,7 +36,11 @@ const sendSlackInviteEmail = (toEmail, toName, callback) => {
 		}
 	};
 
-	transporter.sendMail(data, callback);
+	transporter.sendMail(data).then((info) => {
+		console.log(info);
+	}).catch((err) => {
+		console.log(err)
+	});
 };
 
 module.exports = {
