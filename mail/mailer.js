@@ -24,7 +24,23 @@ const textMail = (to, subject, body, callback) => {
 	transporter.sendMail(data, callback);
 };
 
+const sendSlackInviteEmail = (toEmail, toName, callback) => {
+
+	const data = {
+		from: "OnLoad Hackathon <contact@hackonload.com>",
+		to: toEmail,
+		subject: "Slack Invite",
+		template: 'slack-invite',
+		context: {
+			name: toName,
+		}
+	};
+
+	transporter.sendmail(data, callback);
+};
+
 module.exports = {
 	textMail,
-	htmlMail
+	htmlMail,
+	sendSlackInviteEmail
 };
