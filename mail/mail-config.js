@@ -8,7 +8,7 @@ let transporter = nodemailer.createTransport({
 });
 
 const hbsOptions = {
-	viewPath: './templates/',
+	viewPath: 'mail/templates/',
 	extName: '.hbs'
 };
 
