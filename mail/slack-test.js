@@ -9,4 +9,4 @@ const callback = (err, info) => {
 	}
 };
 
-mailer.sendSlackInviteEmail("Pushkar", "anandpushkar088@gmail.com", callback);
+mailer.sendSlackInviteEmail("Pushkar", "anandpushkar088@gmail.com");
