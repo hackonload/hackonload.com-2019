@@ -411,127 +411,127 @@ const participants = [
 		name: "Sanjith PK",
 		email: "sanjithpk06@gmail.com",
 		phone: "+918618869127",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Omkar Prabhu",
 		email: "omkarp.nitk@gmail.com",
 		phone: "+918097366786",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Moksh Jain",
 		email: "mokshjn00@gmail.com",
 		phone: "+919768325179",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Sudarshan Sundararajan",
 		email: "sudobro43@gmail.com",
 		phone: "+919087465258",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "tanmay shah",
 		email: "tanmayshah1698@gmail.com",
 		phone: "+917020166808",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Parinith Shekar",
 		email: "parinith.1114@gmail.com",
 		phone: "+918951012472",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "FAHAD AHMAD",
 		email: "fahad.ahmad2016@vitstudent.ac.in",
 		phone: "+919629777153",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Anand Chembarpu",
 		email: "anandchembarpu@gmail.com",
 		phone: "+918310273762",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Chandrashekar Dasari",
 		email: "chandra.dasari.cs@gmail.com",
 		phone: "+918217366659",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Kamar Haider Rizvi",
 		email: "kh.rizvi@gmail.com",
 		phone: "+919768297240",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Keerthi V",
 		email: "keerthi.vrmd@gmail.com",
 		phone: "+919742789250",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Mohammed Azharuddin",
 		email: "mohdazhar833@gmail.com",
 		phone: "+918328361770",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Pravinkumar Singh",
 		email: "singhpravinkumar611@gmail.com",
 		phone: "+917045073176",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Prajwal Bharadwaj N",
 		email: "npb1998@gmail.com",
 		phone: "+919986206050",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Vijay Gorfad",
 		email: "gorfadvijay1234@gmail.com",
 		phone: "+917203074260",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Shahid Afridi",
 		email: "sa615960@gmail.com",
 		phone: "+918861604274",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Prajwal S",
 		email: "prajwalkarthik07@gmail.com",
 		phone: "+918050607233",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "SAUNDARYA KUMAR",
 		email: "saun983@gmail.com",
 		phone: "+918800545887",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Yugen Chokshi",
 		email: "yugen3110@gmail.com",
 		phone: "+919638552428",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Mahim Agrawal",
 		email: "mahim23agrawal@gmail.com",
 		phone: "+919066037197",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	},
 	{
 		name: "Srikeerthi S",
 		email: "srikeerthisrinivasan@gmail.com",
 		phone: "+919035395675",
-		slack_invite_sent: false
+		slack_invite_sent: true
 	}
 	
 
