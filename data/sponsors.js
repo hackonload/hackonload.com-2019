@@ -22,6 +22,12 @@ const sponsors = [
 		link: "https://www.wolframalpha.com/",
 	},
 	{
+		name: "BackBuckle",
+		logo: "/img/sponsors/backbuckle.png",
+		link: "https://backbuckle.io/",
+		diamond: true
+	},
+	{
 		name: "Bugsee",
 		logo: "/img/sponsors/bugsee.png",
 		link: "https://www.bugsee.com/",
