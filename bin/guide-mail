@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const mailer = require("./../mail/mailer");
-const participants = require("./../data/participants-test");
+const participants = require("./../data/participants");
 
 const logARR = [];
 let count = 0;
