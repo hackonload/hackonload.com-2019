@@ -24,8 +24,17 @@ const sponsors = [
 	{
 		name: "BackBuckle",
 		logo: "/img/sponsors/backbuckle.png",
-		link: "https://backbuckle.io/",
-		diamond: true
+		link: "https://backbuckle.io/"
+	},
+	{
+		name: "Zend",
+		logo: "/img/sponsors/zend.png",
+		link: "http://www.zend.com/",
+	},
+	{
+		name: "Creative Tim",
+		logo: "/img/sponsors/creative-tim.png",
+		link: "https://www.creative-tim.com/",
 	},
 	{
 		name: "Bugsee",
