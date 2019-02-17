@@ -37,13 +37,14 @@ const sponsors = [
 		link: "https://www.creative-tim.com/",
 	},
 	{
+		name: "Sketch",
+		logo: "/img/sponsors/sketch.svg",
+		link: "https://sketchapp.com/"
+	},
+	{
 		name: "Bugsee",
 		logo: "/img/sponsors/bugsee.png",
 		link: "https://www.bugsee.com/",
-	},
-	{
-		name: "JetBrains",
-		logo: "/img/sponsors/jetbrains.png"
 	},
 	{
 		name: "CloudSploit",
@@ -51,9 +52,8 @@ const sponsors = [
 		link: "https://cloudsploit.com/"
 	},
 	{
-		name: "Sketch",
-		logo: "/img/sponsors/sketch.svg",
-		link: "https://sketchapp.com/"
+		name: "JetBrains",
+		logo: "/img/sponsors/jetbrains.png"
 	},
 	{
 		name: "Temboo",
