@@ -12,6 +12,12 @@ const sponsors = [
 		diamond: true
 	},
 	{
+		name: "CodeFactor",
+		logo: "/img/sponsors/codefactor.png",
+		link: "https://www.codefactor.io/",
+		diamond: true
+	},
+	{
 		name: "GitHub",
 		logo: "/img/sponsors/github.png",
 		link: "https://github.com/",
