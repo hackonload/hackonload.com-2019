@@ -59,7 +59,13 @@ const sponsors = [
 	},
 	{
 		name: "JetBrains",
-		logo: "/img/sponsors/jetbrains.png"
+		logo: "/img/sponsors/jetbrains.png",
+		link: "https://www.jetbrains.com/"
+	},
+	{
+		name: "Taskade",
+		logo: "/img/sponsors/taskade.svg",
+		link: "https://www.taskade.com/"
 	},
 	{
 		name: "Temboo",
