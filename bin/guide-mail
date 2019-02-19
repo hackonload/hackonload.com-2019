@@ -20,7 +20,7 @@ for (let i = 0; i < participants.length; i++) {
 
 	let email = participant.email;
 
-	if (!participant.hasOwnProperty('guide_sent')) {
+	if (!participant.hasOwnProperty('guide_sent') || !participant.guide_sent) {
 		participant.guide_sent = true;
 		count++;
 		mailer.sendGuideMail(email).then((info) => {
