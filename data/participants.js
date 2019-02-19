@@ -538,64 +538,64 @@ const participants = [
 		name: "Ashwin Ram Kumar",
 		email: "reachashrk@gmail.com",
 		phone: "+919481969285",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Anil kumar H M",
 		email: "anilshetty538@gmail.com",
 		phone: "+919738677538",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Ishaan Abhinav",
 		email: "ishaanabhinav@gmail.com",
 		phone: "+919945257872",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Kaaira Gupta",
 		email: "kgupta@es.iitr.ac.in",
 		phone: "+917310551236",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "AMAN SHARMA",
 		email: "sharmaaman.2099@gmail.com",
 		phone: "+919310224453",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Abhishek Singh",
 		email: "writetoabhishek07@gmail.com",
 		phone: "+918448831886",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Rohan Garg",
 		email: "rohangarg32767@gmail.com",
 		phone: "+919811471913",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Shreya A N",
 		email: "anshreya10@gmail.com",
 		phone: "+918762901475",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Praveen Gupta",
 		email: "pvgupta24@gmail.com",
 		phone: "+919738013574",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	}
 
 
