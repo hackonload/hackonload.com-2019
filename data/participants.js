@@ -591,19 +591,12 @@ const participants = [
 		guide_sent: true
 	},
 	{
-		name: "Aakarshita Tiwari",
-		email: "leceelebee@gmail.com",
-		phone: "+919958627829",
-		slack_invite_sent: false,
-		guide_sent: false
-	},
-	{
 		name: "Mishal Shah",
 		email: "shahmishal1998@gmail.com",
 		phone: "+919725801399",
 		slack_invite_sent: false,
 		guide_sent: false
 	}
-	];
+];
 
 module.exports = participants;
