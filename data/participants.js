@@ -594,15 +594,15 @@ const participants = [
 		name: "Mishal Shah",
 		email: "shahmishal1998@gmail.com",
 		phone: "+919725801399",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	},
 	{
 		name: "Shashank P",
 		email: "shashankp5424@gmail.com",
 		phone: "+919481029650",
-		slack_invite_sent: false,
-		guide_sent: false
+		slack_invite_sent: true,
+		guide_sent: true
 	}
 ];
 
