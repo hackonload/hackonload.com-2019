@@ -48,14 +48,9 @@ const sponsors = [
 		link: "https://sketchapp.com/"
 	},
 	{
-		name: "Bugsee",
-		logo: "/img/sponsors/bugsee.png",
-		link: "https://www.bugsee.com/",
-	},
-	{
-		name: "CloudSploit",
-		logo: "/img/sponsors/cloudsploit.png",
-		link: "https://cloudsploit.com/"
+		name: "Unity",
+		logo: "/img/sponsors/unity.png",
+		link: "https://unity3d.com/"
 	},
 	{
 		name: "JetBrains",
@@ -66,6 +61,16 @@ const sponsors = [
 		name: "Taskade",
 		logo: "/img/sponsors/taskade.svg",
 		link: "https://www.taskade.com/"
+	},
+	{
+		name: "Bugsee",
+		logo: "/img/sponsors/bugsee.png",
+		link: "https://www.bugsee.com/",
+	},
+	{
+		name: "CloudSploit",
+		logo: "/img/sponsors/cloudsploit.png",
+		link: "https://cloudsploit.com/"
 	},
 	{
 		name: "Temboo",
