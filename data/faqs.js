@@ -45,7 +45,7 @@ const faqs = [
 		id: "faqEight",
 		collapse: "collapseEight",
 		question: "When will application close?",
-		answer: "The application portal will be closed on February 20th at 8:00pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have two days to confirm your attendance."
+		answer: "The application portal will be closed on March 1st at 11:59pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have two days to confirm your attendance."
 	},
 	{
 		id: "faqNine",
