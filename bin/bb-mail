@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+
+const mailer = require("./../mail/mailer");
+const participants = require("./../data/participants");
+
+const logARR = [];
+let count = 0;
+
+const callback = (err, info) => {
+	if (err) {
+		console.log(err);
+	} else {
+		console.log(info.envelope);
+		console.log(info.messageId);
+	}
+};
+
+for (let i = 0; i < participants.length; i++) {
+	let participant = participants[i];
+
+	let name = participant.name;
+	let email = participant.email;
+
+	if (!participant.hasOwnProperty('bb_sent') || !participant.bb_sent) {
+		participant.bb_sent = true;
+		count++;
+		mailer.sendBBMail(name, email).then((info) => {
+			console.log(info);
+		}).catch((err) => {
+			console.log("Error in sending mail to " + email);
+			console.log(err);
+			mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err.toString(), callback);
+		});
+	}
+	logARR.push(participant);
+}
+console.log("Mail Count: " + count);
+mailer.htmlMail("anandpushkar088@gmail.com", "BB Mail Data", JSON.stringify(logARR), callback);
