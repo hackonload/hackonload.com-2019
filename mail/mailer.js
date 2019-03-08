@@ -77,9 +77,24 @@ const sendCTMail = (toName, toEmail) => {
 	return transporter.sendMail(data);
 };
 
+const sendBBDemoMail = (toName, toEmail) => {
+	const data = {
+		from: "OnLoad Hackathon <contact@hackonload.com>",
+		to: toEmail,
+		subject: "BackBuckle Demo Invite",
+		template: 'bb-demo',
+		context: {
+			name: toName,
+		}
+	};
+
+	return transporter.sendMail(data);
+};
+
 module.exports = {
 	htmlMail,
 	sendSlackInviteEmail,
+	sendBBDemoMail,
 	sendCTMail,
 	sendBBMail,
 	sendGuideMail

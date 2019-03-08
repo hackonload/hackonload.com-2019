@@ -21,10 +21,10 @@ for (let i = 0; i < participants.length; i++) {
 	let name = participant.name;
 	let email = participant.email;
 
-	if (!participant.hasOwnProperty('ct_sent') || !participant.ct_sent) {
-		participant.ct_sent = true;
+	if (!participant.hasOwnProperty('bb_demo_sent') || !participant.bb_demo_sent) {
+		participant.bb_demo_sent = true;
 		count++;
-		mailer.sendCTMail(name, email).then((info) => {
+		mailer.sendBBDemoMail(name, email).then((info) => {
 			console.log(info);
 		}).catch((err) => {
 			console.log("Error in sending mail to " + email);
@@ -35,4 +35,4 @@ for (let i = 0; i < participants.length; i++) {
 	logARR.push(participant);
 }
 console.log("Mail Count: " + count);
-mailer.htmlMail("anandpushkar088@gmail.com", "CT Mail Data", JSON.stringify(logARR), callback);
+mailer.htmlMail("anandpushkar088@gmail.com", "BB Demo Mail Data", JSON.stringify(logARR), callback);
