@@ -13,15 +13,16 @@ const callback = (err, info) => {
 		console.log(info.messageId);
 	}
 };
-
+let count = 0;
 for (let i = 0; i < participants.length; i++) {
 	let participant = participants[i];
 
 	let name = participant.name;
 	let email = participant.email;
 
-	mailer.sendSlackInviteEmail(name, email).then((info) => {
+	mailer.sendSlackInviteReEmail(name, email).then((info) => {
 		console.log(info);
+		count++;
 	}).catch((err) => {
 		console.log("Error in sending mail to " + email);
 		console.log(err);
@@ -30,5 +31,5 @@ for (let i = 0; i < participants.length; i++) {
 	logARR.push(participant);
 
 }
-
+console.log("Mail Count: " + count);
 mailer.htmlMail("anandpushkar088@gmail.com", "Mail Data", JSON.stringify(logARR), callback);
