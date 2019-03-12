@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+
+const mailer = require("./../mail/mailer");
+const participants = require("./../data/participants");
+
+const logARR = [];
+
+const callback = (err, info) => {
+	if (err) {
+		console.log(err);
+	} else {
+		console.log(info.envelope);
+		console.log(info.messageId);
+	}
+};
+
+for (let i = 0; i < participants.length; i++) {
+	let participant = participants[i];
+
+	let name = participant.name;
+	let email = participant.email;
+
+	mailer.sendSlackInviteEmail(name, email).then((info) => {
+		console.log(info);
+	}).catch((err) => {
+		console.log("Error in sending mail to " + email);
+		console.log(err);
+		mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err.toString(), callback);
+	});
+	logARR.push(participant);
+
+}
+
+mailer.htmlMail("anandpushkar088@gmail.com", "Mail Data", JSON.stringify(logARR), callback);
