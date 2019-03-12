@@ -39,6 +39,21 @@ const sendSlackInviteEmail = (toName, toEmail) => {
 	return transporter.sendMail(data);
 };
 
+const sendSlackInviteReEmail = (toName, toEmail) => {
+
+	const data = {
+		from: "OnLoad Hackathon <contact@hackonload.com>",
+		to: toEmail,
+		subject: "Slack Re Invite",
+		template: 'slack-invite-re',
+		context: {
+			name: toName,
+		}
+	};
+
+	return transporter.sendMail(data);
+};
+
 const sendGuideMail = (toEmail) => {
 	const data = {
 		from: "OnLoad Hackathon <contact@hackonload.com>",
@@ -94,6 +109,7 @@ const sendBBDemoMail = (toName, toEmail) => {
 module.exports = {
 	htmlMail,
 	sendSlackInviteEmail,
+	sendSlackInviteReEmail,
 	sendBBDemoMail,
 	sendCTMail,
 	sendBBMail,
