@@ -26,15 +26,17 @@ for (let i = 0; i < participants.length; i++) {
 	let name = participant.name;
 	name = name.firstWord();
 
-	count++;
-	mailer.sendIndorseEmail(name, email).then((info) => {
-		console.log(info);
-	}).catch((err) => {
-		console.log("Error in sending mail to " + email);
-		console.log(err);
-		mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err.toString(), callback);
-	});
-
+	if (!participant.hasOwnProperty('indorse_sent') || !participant.indorse_sent) {
+		participant.indorse_sent = true;
+		count++;
+		mailer.sendIndorseEmail(name, email).then((info) => {
+			console.log(info);
+		}).catch((err) => {
+			console.log("Error in sending mail to " + email);
+			console.log(err);
+			mailer.htmlMail("anandpushkar088@gmail.com", "Error in mail", err.toString(), callback);
+		});
+	}
 	logARR.push(participant);
 }
 console.log("Mail Count: " + count);
