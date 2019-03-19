@@ -48,6 +48,11 @@ const sponsors = [
 		link: "https://sketchapp.com/"
 	},
 	{
+		name: "Indorse.io",
+		logo: "/img/sponsors/indorse.png",
+		link: "https://indorse.io/"
+	},
+	{
 		name: "Unity",
 		logo: "/img/sponsors/unity.png",
 		link: "https://unity3d.com/"
