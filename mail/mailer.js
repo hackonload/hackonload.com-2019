@@ -132,11 +132,24 @@ const sendNRSVP = (toName, toEmail) => {
 	return transporter.sendMail(data);
 };
 
+const sendIndorseEmail = (toName, toEmail) => {
+	const data = {
+		from: "OnLoad Hackathon <contact@hackonload.com>",
+		to: toEmail,
+		subject: "OnLoad + Indorse",
+		template: 'indorse',
+		context: {
+			name: toName
+		}
+	};
+	return transporter.sendMail(data);
+};
 
 module.exports = {
 	htmlMail,
 	sendSlackInviteEmail,
 	sendSlackInviteReEmail,
+	sendIndorseEmail,
 	sendBBDemoMail,
 	sendCheckList,
 	sendNRSVP,
