@@ -20,7 +20,7 @@ for (let i = 0; i < participants.length; i++) {
 	let name = participant.name;
 	let email = participant.email;
 	count++;
-	mailer.sendCTMail(name, email).then((info) => {
+	mailer.sendNRSVP(name, email).then((info) => {
 		console.log(info);
 	}).catch((err) => {
 		console.log("Error in sending mail to " + email);

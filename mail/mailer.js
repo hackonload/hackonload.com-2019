@@ -123,7 +123,7 @@ const sendNRSVP = (toName, toEmail) => {
 	const data = {
 		from: "OnLoad Hackathon <contact@hackonload.com>",
 		to: toEmail,
-		subject: "Participants Checklist",
+		subject: "Don't miss out the fun",
 		template: 'nrsvp',
 		context: {
 			name: toName
