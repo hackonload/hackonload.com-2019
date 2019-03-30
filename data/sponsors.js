@@ -58,6 +58,11 @@ const sponsors = [
 		link: "https://unity3d.com/"
 	},
 	{
+		name: "Zebronics",
+		logo: "/img/sponsors/zebronics.png",
+		link: "https://zebronics.com/"
+	},
+	{
 		name: "JetBrains",
 		logo: "/img/sponsors/jetbrains.png",
 		link: "https://www.jetbrains.com/"
