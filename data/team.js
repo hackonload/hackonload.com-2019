@@ -83,6 +83,13 @@ const volunteers = [
 		link: "https://github.com/Umesh-A"
 	},
 	{
+		name: "Uthkarsh Sanjay",
+		pic: "uthkarsh.jpeg",
+		bio: "Highly driven individual looking for opportunities to showcase my skills.....\n" +
+			"Budding Android Developer..",
+		link: "https://www.linkedin.com/in/uthkarsh-sanjay-ba600216b"
+	},
+	{
 		name: "Nikhil",
 		pic: "nikhil.jpeg",
 		bio: "Techie with a zeal to learn new things.",
