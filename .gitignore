@@ -76,6 +76,6 @@ typings/
 
 #IDE files
 .idea/
+
 .swp
-data/participants-nrsvp.js
-data/participants.js
+remind.json
