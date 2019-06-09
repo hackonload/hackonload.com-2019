@@ -1,0 +1,38 @@
+<p id="countdown"></p>
+<button id="startBtn" onclick="startCountDown()">Start</button>
+<script>
+    //let timeInSec;
+    const secondsToTime = (seconds) => {
+        const arr = new Date(seconds * 1000).toISOString().substr(11, 8).split(':');
+        const days = Math.floor(seconds / 86400);
+        arr[0] = parseInt(arr[0], 10) + days * 24;
+        return arr.join(':');
+    };
+
+    $(document).ready(() => {
+
+    });
+
+    const timeInSec = 30 * 60 * 60;
+    const startCountDown = () => {
+        startTimer(timeInSec)
+    };
+
+    const startTimer = (timeToCount) => {
+        document.getElementById('startBtn').style.display = "none";
+        document.getElementById('imgOnLoad').style.display = "none";
+
+        let x = setInterval(() => {
+            let timeInWords = secondsToTime(timeToCount);
+            console.log(timeInWords);
+            document.getElementById('countdown').innerHTML = timeInWords;
+            if (timeToCount < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "Hacking Ends";
+            }
+            timeToCount--;
+        }, 1000);
+    };
+
+
+</script>
