@@ -6,10 +6,13 @@ const remindFile = __dirname + "/../../remind.json";
 
 const remindRequest = async (req) => {
 
+	const name = req.body.name;
 	const email = req.body.email;
 	const recaptchaResponse = req.body["g-recaptcha-response"];
 
-	if (email === "" || email === null) {
+	if (name === "" || name === null) {
+		throw new Error("Enter your name.");
+	} else if (email === "" || email === null) {
 		throw new Error("Enter a valid email.");
 	} else if (recaptchaResponse === "" || recaptchaResponse === null) {
 		throw new Error("Please tick the recaptcha.");
@@ -22,6 +25,7 @@ const remindRequest = async (req) => {
 	}
 
 	const writeObj = {
+		name: name,
 		email: email
 	};
 
