@@ -1375,3 +1375,13 @@ ul.social-links li {
     float: right;
     padding: 10px;
 }
+
+#notify-text {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+#notify-text:hover {
+    color: #e4e4e4;
+}

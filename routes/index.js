@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
 	res.render('index', data);
 });
 
-router.post("/remind", async (req, res) => {
+router.post("/notify", async (req, res) => {
 
 	const response = {};
 
@@ -23,9 +23,11 @@ router.post("/remind", async (req, res) => {
 		response["success"] = true;
 		response["msg"] = "Thank you for interest. You will receive a email when applications start.";
 	} catch (e) {
+		console.log(e);
 		response["success"] = false;
 		response["msg"] = e.message;
 	}
+	console.log(response);
 	res.json(response);
 });
 

@@ -1,3 +1,4 @@
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -6,32 +7,86 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-        integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous" async defer></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
         integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha256-KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms=" crossorigin="anonymous" async defer></script>
 <script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        lazyLoad: true,
-        margin: 10,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            600: {
-                items: 2,
-                nav: false
-            },
-            1000: {
-                items: 4,
-                nav: true,
-                loop: false
+
+    $(document).ready(() => {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            lazyLoad: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                }
             }
+        });
+    })
+</script>
+<script>
+    let request;
+    $("#notify-form").submit((e) => {
+        e.preventDefault();
+        if (request) {
+            request.abort();
         }
+        let $form = $("#notify-form");
+        let $inputs = $form.find("input, button");
+
+        let data = $form.serialize();
+        console.log(data);
+        $inputs.prop("disabled", true);
+
+        request = $.ajax({
+            url: "/notify",
+            type: "post",
+            data: data,
+            contentType: "application/x-www-form-urlencoded"
+        });
+
+        request.done((response, textStatus, jqXHR) => {
+            if (response.success === true) {
+                swal({
+                    title: "Good job!",
+                    text: response.msg,
+                    icon: "success",
+                    button: "Great..!",
+                });
+                $form[0].reset()
+            } else {
+                swal({
+                    title: "Umm..",
+                    text: response.msg,
+                    icon: "error",
+                    button: "Oh!..No..",
+                });
+            }
+        }).fail((jqXHR, textStatus, errorThrown) => {
+            console.log(errorThrown);
+            swal({
+                title: "Um...",
+                text: "Looks like something is wrong at our end. We'll fix it ASAP.",
+                icon: "error",
+                button: "Oh!...No..",
+            });
+        }).always(() => {
+            $inputs.prop("disabled", false);
+        })
     });
 </script>
