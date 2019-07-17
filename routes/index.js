@@ -1,12 +1,17 @@
 const express = require('express');
 const router = express.Router();
+const faqs = require("./../data/faqs");
 
 const remindRequest = require("./../services/remind");
 const referralRequest = require("./../services/referral");
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-	res.render('index', {title: 'Express'});
+	const data = {
+		title: "OnLoad",
+		faqs: faqs
+	};
+	res.render('index', data);
 });
 
 router.post("/remind", async (req, res) => {

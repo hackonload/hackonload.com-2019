@@ -4,11 +4,22 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const hbs = require("hbs");
+const hbsutils = require('hbs-utils')(hbs);
+
 
 const indexRouter = require('./routes/index');
 const timerRouter = require("./routes/timer");
 
 require('dotenv').config();
+
+hbs.registerHelper("times", (n, block) => {
+	let accum = '';
+	for (let i = 0; i < n; ++i)
+		accum += block.fn(i + 1);
+	return accum;
+});
+hbsutils.registerWatchedPartials(__dirname + "/views/partials");
 
 const app = express();
 
