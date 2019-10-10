@@ -4,6 +4,6 @@ OnLoad is a 30hrs intense, fun-filled, rewarding convergence of young talented p
 
 They will work on the cutting edge technologies including but not limited to Artificial Intelligence, Machine Learning, Blockchain, IOT, and many more leveraging available tools and APIs creating new tools towards the common goal of creating a better world.
 
-This repository has the code for homepage of the hackathon.
+This repository has the code for OnLoad's first edition (2019) website..
 
 Visit the site [here](https://hacknload.com)
